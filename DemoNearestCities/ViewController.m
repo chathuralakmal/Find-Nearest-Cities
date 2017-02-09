@@ -23,8 +23,8 @@
     NSString *username = @"USERNAME";
     
     NSDictionary *parameters = @{@"username" :username,
-                                 @"lat": @"33.8688",
-                                 @"lng": @"151.2093",
+                                 @"lat": @"6.9271",
+                                 @"lng": @"79.8612",
                                  };
     
     [serviceObj performSelectorInBackground:@selector(findNearByLocations:) withObject:parameters];
